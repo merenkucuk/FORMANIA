@@ -43,7 +43,7 @@ Now you can start application by writing "npm start".<br />
 
 Here is the FORMANIA welcome page <br />
 
-<td style="width: 100%;"><img src=https://github.com/MErenKucuk/Image-Filter-GUI/blob/main/example.png></td> <br/>
+<td style="width: 100%;"><img src=https://github.com/MErenKucuk/FORMANIA/blob/main/welcomepage.png></td> <br/>
 
 Here is the FORMANIA editor page <br />
-<td style="width: 100%;"><img src=https://github.com/MErenKucuk/Image-Filter-GUI/blob/main/example.png></td> <br/>
+<td style="width: 100%;"><img src=https://github.com/MErenKucuk/FORMANIA/blob/main/editorpage.png></td> <br/>
