@@ -47,3 +47,5 @@ Here is the FORMANIA welcome page <br />
 
 Here is the FORMANIA editor page <br />
 <td style="width: 100%;"><img src=https://github.com/MErenKucuk/FORMANIA/blob/main/editorpage.png></td> <br/>
+
+The details, results and visuals are written in the report.
