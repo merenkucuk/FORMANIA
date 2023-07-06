@@ -13,7 +13,7 @@ Welcome to the Form Designer project, this is an application to create forms for
 
 ## How to Install and Run
 --- For BackEnd ---<br />
-Before starting, you have to create a database named "formDesigner" in postgresql.<br />
+Before starting, you have to extract backend folder from zip and create a database named "formDesigner" in postgresql.<br />
 You can do this via pgAdmin 4.<br />
 Our backend uses 5433 as port number.<br />
 If you want to change database name and other settings, go to "/backend/formDesigner/src/main/resources/application.properties".<br />
