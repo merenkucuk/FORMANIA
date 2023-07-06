@@ -40,3 +40,10 @@ In Visual Studio Code, click "file>open folder" and select project folder.<br />
 After that, open terminal and go to "form-designer" directory via writing "cd form-designer".<br />
 Write on terminal, "npm install react-scripts --save"<br />
 Now you can start application by writing "npm start".<br />
+
+Here is the FORMANIA welcome page <br />
+
+<td style="width: 100%;"><img src=https://github.com/MErenKucuk/Image-Filter-GUI/blob/main/example.png></td> <br/>
+
+Here is the FORMANIA editor page <br />
+<td style="width: 100%;"><img src=https://github.com/MErenKucuk/Image-Filter-GUI/blob/main/example.png></td> <br/>
