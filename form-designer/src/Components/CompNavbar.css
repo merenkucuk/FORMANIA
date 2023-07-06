@@ -1,0 +1,69 @@
+.navbar {
+    background: linear-gradient(45deg, rgba(255,129,0,1) 0%, rgba(255,184,0,1) 50%, rgba(255,129,0,1) 100%);
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    margin-left: 0;
+    font-family: Helvetica, serif;
+    font-size: 24px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.navbarHeader {
+    color: black;
+    transition: 150ms;
+    font-family: Helvetica, serif;
+    margin-left: -80px;
+}
+
+.navbarHeader:hover {
+    color: wheat;
+    transition: 150ms;
+}
+
+.navbarHeader:active {
+    color: black;
+}
+
+.navbarIcons {
+    font-size: 20px;
+    color: darkslategrey;
+    transition: 150ms;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.navbarIcons:hover {
+    color: wheat;
+    transition: 150ms;
+    font-size: 24px;
+}
+
+.navbarIcons:active {
+    color: black;
+    font-size: 24px;
+}
+
+.navbarSwitch .dx-switch-container {
+    background: transparent;
+    border-color: darkslategrey;
+}
+
+.navbarSwitch .dx-switch-handle::before {
+    background: darkslategrey;
+    color: transparent;
+}
+
+.navbarSwitch .dx-switch-on {
+    color: black;
+    font-family: Helvetica, serif;
+    font-weight: bold;
+}
+
+.navbarSwitch .dx-switch-off {
+    color: darkslategrey;
+    font-family: Helvetica, serif;
+    font-weight: normal;
+}

@@ -1,0 +1,252 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.myDiv {
+  box-shadow: 5px 10px #4c4c4c;
+  border: 5px outset lightgreen;
+  border-radius: 30px;
+  background-color: lightblue;
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rightButton {
+  margin-left: 10px;
+}
+
+.formDesignerTitle {
+  text-align: center;
+  font-size: 5em !important;
+  color: blue;
+  margin-top: 200px;
+  font-weight: 400 !important;
+  text-shadow: 2px 2px #75deb2;
+}
+
+.mainBg {
+  background-image: linear-gradient(cyan, blue);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.formEditorBg {
+  background-color: rgb(230, 230, 230);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: background-color 200ms ease-out;
+}
+
+.formEditorBg.dark {
+  background-color: rgb(50, 50, 50);
+  transition: background-color 200ms ease-out;
+}
+
+.formTemplate {
+  background-color: white;
+  width: 40%;
+  height: 88%;
+  margin-left: 160px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.solSideMenu {
+  border-radius: 0px 10px 0px 0px;
+  background-color: gray;
+  width: 20%;
+  height: 100%;
+  margin-left: 0px;
+}
+
+.sagSideMenu {
+  background-color: gray;
+  width: 20%;
+  height: 100%;
+  margin-left: 160px;
+}
+
+.title {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold !important;
+  text-decoration: underline;
+}
+
+.allComponentsBg {
+  border-radius: 10px;
+  background-color: darkgray;
+  width: 90%;
+  height: 50%;
+  margin-left: 15px;
+}
+
+.addedComponentsBg {
+  border-radius: 10px;
+  background-color: darkgray;
+  width: 90%;
+  height: 40%;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.draggableDiv {
+  position: fixed;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  width: 200px;
+  height: 40px;
+}
+
+.configurationBg {
+  background-color: darkgray;
+  width: 90%;
+  height: 91%;
+  margin-left: 15px;
+  padding-left: 5px;
+  overflow-y: scroll !important;
+  margin-top: 5px;
+}
+
+.buttonsDiv {
+  margin-top: 10px;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.redBorder {
+  border-color: red !important;
+}
+
+.formSubmitBg {
+  background-color: rgb(230, 230, 230);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.formLayout {
+  width: 60%;
+  height: 100%;
+  border-style: dotted;
+  border-width: 0px 1px 0px 1px;
+}
+
+.submitsLayout {
+  width: 20%;
+  height: 100%;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.dx-icon-info:hover {
+  color: wheat;
+  transition: 150ms;
+}
